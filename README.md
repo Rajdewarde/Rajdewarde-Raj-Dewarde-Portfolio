@@ -1,7 +1,4 @@
-# Rajdewarde-Raj-Dewarde-Portfolio
-My Portfolio Website
-# Rajdewarde-Raj-Dewarde-Portfolio
-My Portfolio Website
+
 # Raj Dewarde | Portfolio Website 🚀
 
 Welcome to my personal portfolio website.
