@@ -181,16 +181,23 @@ header {
 }
 
 .hero-image img {
-    width: 420px;
-    height: 420px;
+
+    width: 260px;
+    height: 260px;
+
+    max-width: 90%;
+
     object-fit: cover;
-    object-position: center left;
+    object-position: center top;
+
     border-radius: 50%;
+
     border: 5px solid #38BDF8;
-    box-shadow: 0 0 35px rgba(56, 189, 248, .35);
+
+    box-shadow: 0 0 35px rgba(56,189,248,.35);
+
     transition: .4s;
 }
-
 .hero-image img:hover {
     transform: scale(1.05);
 }
