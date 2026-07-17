@@ -61,6 +61,9 @@ Education, learning journey and future goals.
 ### 💻 Skills
 Technologies and programming languages I am learning.
 
+### 📹Creative Skills
+Video editing content creation i am learning Capcut/Vn/Edits
+
 ### 🚀 Projects
 
 #### 1. Gram Panchayat Saute Website
