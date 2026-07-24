@@ -199,15 +199,19 @@ buttons.forEach(btn => {
 console.log("%cWelcome To Raj Dewarde Portfolio 🚀",
 "color:#00E5FF;font-size:22px;font-weight:bold;");
 
+// ===========================
+// Mobile Menu Toggle
+// ===========================
+
 const menuToggle = document.getElementById('menuToggle');
-const navLinks = document.querySelector('.nav-links');
+const navMenu = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+  navMenu.classList.toggle('active');
   menuToggle.querySelector('i').classList.toggle('fa-bars');
   menuToggle.querySelector('i').classList.toggle('fa-xmark');
 });
 
 document.querySelectorAll('.nav-links a').forEach(link => {
-  link.addEventListener('click', () => navLinks.classList.remove('active'));
+  link.addEventListener('click', () => navMenu.classList.remove('active'));
 });
