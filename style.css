@@ -1,5 +1,7 @@
-
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* ===========================
    GOOGLE FONT
 =========================== */
@@ -1613,4 +1615,57 @@ font-size:12px;
 
 }
 
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.6rem;
+  color: #fff; /* theme color nusar badal */
+  cursor: pointer;
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle { display: block; }
+
+  .nav-links {
+    position: absolute;
+    top: 70px; /* navbar height jevdha asel tevdha */
+    left: 0;
+    width: 100%;
+    background: #0d0d0d;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .nav-links.active { display: flex; }
+  .nav-links li { margin: 12px 0; }
+  .nav-btn { display: none; } /* hero madhe already Download Resume aahe */
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero-image { margin-top: 30px; }
+  .hero-image img { width: 220px; height: 220px; }
+
+  .about-wrapper { display: flex; flex-direction: column; }
+  .about-info { display: grid; grid-template-columns: 1fr 1fr; }
+
+  .stats { display: flex; flex-wrap: wrap; }
+  .stat-box { width: 50%; }
+
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; }
+  .projects-grid { display: grid; grid-template-columns: 1fr; }
+  .contact-wrapper { display: flex; flex-direction: column; }
+
+  .cursor { display: none; }
+}
+
+@media (max-width: 480px) {
+  .about-info, .skills-grid { grid-template-columns: 1fr; }
+  .stat-box { width: 100%; }
 }
